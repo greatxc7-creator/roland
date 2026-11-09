@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+    height: 80px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.btn2 {
+    background-color: black;
+    color: white;
+    width: 105px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.mother-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.herosection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 30px;
+    height: 100vh;
+}
+
+.herosection p {
+    font-size: 20px;
+}
+
+.btn3 {
+    margin: 20px;
+    margin-top: 20px;
+    top: 10px;
+    left: 10px;
+    z-index: 1px;
+}
+
+.child-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 30px;
+    background-color: #A4BDDA;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 100px;
+    left: 30px;
+}
+
+.child-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    position: relative;
+    top: 10px;
+    right: 100px;
+}
+
+.second-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.child-container3 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero-section3 {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.Card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    border-radius: 10px;
+}
+
+h4 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.child-container4 {
+    width: 250px;
+    height: 200px;
+    background-color: #A4BDDA;
+    border-radius: 10px;
+    box-shadow: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 0 rgba(30, 28, 28, 0.189);
+
+}
+
+.hero-section4 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-section4-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-section4-about-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #A4BDDA;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 20px 0 20px 0;
+    position: relative;
+    bottom: -150px;
+    right: 300px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child-container4-price{
+    gap: 10px;
+    display: flex;
+}
